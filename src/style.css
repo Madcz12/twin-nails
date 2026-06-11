@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #000000;
+  --color-fuscia: #ff1c6f;
+  --color-fuscia-light: #ff4d8f;
+  --color-fuscia-dark: #d9175d;
+  --color-rosa-pastel: #F3BCC8;
+  --color-rosa-pastel-light: #f8d5dd;
+  --color-gris-oscuro: #1a1a1a;
+  --color-gris-medio: #2a2a2a;
+  --color-gris-claro: #ffffff;
+  --color-blanco: #ffffff;
+
+  --font-heading: 'Dancing Script', cursive;
+  --font-body: 'Inter', sans-serif;
+  --font-serif-brand: 'Playfair Display', 'Times New Roman', serif;
+  --font-times: 'Times New Roman', Times, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-blanco);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-fuscia);
+  color: var(--color-blanco);
+}
+
+/* Animación de entrada (Scroll Reveal) */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
