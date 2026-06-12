@@ -148,7 +148,7 @@ onMounted(() => {
       <div class="text-center mb-16">
         <h2 class="font-heading text-5xl sm:text-6xl text-fuscia mb-4">Nuestros Servicios</h2>
         <p class="font-times text-gris-claro text-lg max-w-xl mx-auto">
-          Todo lo que necesitás para lucir unas manos y pies impecables y saludables.
+          Todo lo que necesitas para lucir unas manos y pies impecables y saludables.
         </p>
       </div>
 

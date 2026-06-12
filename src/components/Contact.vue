@@ -17,7 +17,7 @@ const schedule = SCHEDULE
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="font-heading text-4xl sm:text-5xl text-fuscia mb-4">Ubicación y Contacto</h2>
-        <p class="text-gris-claro text-lg">Visitanos o escribinos, ¡te esperamos!</p>
+        <p class="text-gris-claro text-lg">Visitanos o escribenos, ¡te esperamos!</p>
       </div>
 
       <div class="grid lg:grid-cols-2 gap-10">
